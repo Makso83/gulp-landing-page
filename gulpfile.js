@@ -88,7 +88,7 @@ const watcher = () => {
 
 const clear = async () => {
   const deleted = await del(['./build/**']);
-  console.warn('\x1b[33m%s\x1b[0m', `BUILD folder CLEARED: ${deleted.length} objects has been deleted!`);
+  console.warn('\x1b[33m%s\x1b[0m', `BUILD folder CLEARED: ${deleted.length} objects has been deleted!,`);
 };
 
 // Starts development server on localhost:3000
